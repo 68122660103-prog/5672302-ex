@@ -1,13 +1,22 @@
+// void main() {
+//   var i = 1;
+//   while (i <= 5) {
+//     print('x' * 1);
+//     i++;
+//   }
+//   print('Done');
+// }
+
 void main() {
-  for (int i = 1; i <= 15; i++) {
-    if (i % 3 == 0 && i % 5 == 0) {
-      print('fizz buzz');
-    } else if (i % 3 == 0) {
-      print('fizz');
-    } else if (i % 5 == 0) {
-      print('buzz');
-    } else {
-      print(i);
-    }
+  var i = 1;
+  while (i <= 5) {
+    print('x' * i);
+    i++;
+  }
+  for (var i = 1; i <= 5; i++) {
+    print('x' * i);
+  }
+  for (var i in [1, 2, 3]) {
+    print(i);
   }
 }

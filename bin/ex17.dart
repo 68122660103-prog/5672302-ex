@@ -1,37 +1,17 @@
-// void main() {
-//   const medal = Medal.gold;
-//   switch (medal) {
-//     case Medal.gold:
-//       print('gold 👽');
-//       break;
-//     case Medal.silver:
-//       print('silver' 👽);
-//       break;
-//     case Medal.bronze:
-//       print('bronze 👽');
-//       break;
-//     case Medal.noMedal:
-//       print('no medal, try again 💀');
-//       break;
-//   }
-// }
-
-enum Medal { gold, silver, bronze, noMedal }
-
 void main() {
-  const medal = Medal.gold;
-  switch (medal) {
-    case Medal.gold:
+  const pos = 2;
+  switch (pos) {
+    case 1:
       print('gold 👽');
       break;
-    case Medal.silver:
+    case 2:
       print('silver 👽');
       break;
-    case Medal.bronze:
+    case 3:
       print('bronze 👽');
       break;
-    case Medal.noMedal:
-      print('no medal, try again 💀');
+    default:
+      print('no medal, try again 👽');
       break;
   }
 }

@@ -1,10 +1,19 @@
+enum Medal { gold, silver, bronze, noMedal }
+
 void main() {
-  const numbers = [1, 3, 5, 7, 9];
-  var sum = 0;
-
-  for (var number in numbers) {
-    sum += number;
+  const medal = Medal.gold;
+  switch (medal) {
+    case Medal.gold:
+      print('gold 👽');
+      break;
+    case Medal.silver:
+      print('silver 👽');
+      break;
+    case Medal.bronze:
+      print('bronze 👽');
+      break;
+    case Medal.noMedal:
+      print('no medal, try again 👽');
+      break;
   }
-
-  print(sum);
 }
